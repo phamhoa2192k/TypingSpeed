@@ -1,0 +1,13 @@
+const express = require('express')
+const cors = require('cors')
+const upload = require('./route/upload')
+const cookieParser = require('cookie-parser')
+const dataRouter = require('./route/data')
+var app = express()
+app.use(cookieParser())
+app.use(cors())
+app.use(express.json())
+app.use("/upload", upload)
+app.use("/data", dataRouter)
+
+app.listen(3001)

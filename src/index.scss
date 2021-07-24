@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Quicksan";
+  src: url("./font/Quicksand-VariableFont_wght.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.paragraph {
+  font-size: 2.5rem;
+  font-family: Quicksan;
+  text-align: left;
+}
+
+.letter {
+  margin: 5px 8px 8px 5px;
+  padding: 5px;
+  display: inline;
+  font-weight: 100;
+  color: #a6a6a6;
+}
+
+.letter-current {
+  margin: 5px 8px 8px 5px;
+  padding: 5px;
+  display: inline;
+  font-weight: 100;
+  color: white;
+  background-color: #3eb667;
+}
+
+.letter-wrong {
+  margin: 5px 8px 8px 5px;
+  padding: 5px;
+  display: inline;
+  font-weight: 100;
+  color: white;
+  background-color: red;
+}
+
+.letter-done {
+  margin: 5px 8px 8px 5px;
+  padding: 5px;
+  display: inline;
+  font-weight: 100;
+  color: black;
+}
